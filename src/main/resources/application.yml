@@ -1,0 +1,16 @@
+spring:
+  mongodb:
+    primary:
+      host: localhost
+      port: 27017
+      database: primary_db
+    secondary:
+      host: localhost
+      port: 27017
+      database: separateDbTest
+      uri: mongodb://localhost:27017/?authSource=admin
+  list: hi,there,how,are,you
+mongodb:
+  secondary.uri: mongodb://engine:P3GNx6T2nlQy6DiFztbJmA@172.16.6.205:27017
+
+customStr: hello there
